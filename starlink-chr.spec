@@ -5,8 +5,7 @@ Version:	2.2_5.218
 Release:	1
 License:	GPL
 Group:		Libraries
-#Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/chr/chr.tar.Z
-Source0:	chr.tar.Z
+Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/chr/chr.tar.Z
 # Source0-md5:	6a611003114e8e850f94e0dd200c8421
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_CHR.html
 BuildRequires:	gcc-g77
