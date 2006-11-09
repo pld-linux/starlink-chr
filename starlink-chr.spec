@@ -41,7 +41,7 @@ aplikacji do przetwarzania tekstu.
 Summary:	Header files for CHR library
 Summary(pl):	Pliki nag³ówkowe biblioteki CHR
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for CHR library.
@@ -53,7 +53,7 @@ Pliki nag³ówkowe biblioteki CHR.
 Summary:	Static Starlink CHR library
 Summary(pl):	Statyczna biblioteka Starlink CHR
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink CHR library.
