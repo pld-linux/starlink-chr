@@ -1,5 +1,5 @@
 Summary:	CHR - Character Handling Routines
-Summary(pl.UTF-8):   CHR - funkcje do obsługi znaków
+Summary(pl.UTF-8):	CHR - funkcje do obsługi znaków
 Name:		starlink-chr
 Version:	2.2_5.218
 Release:	1
@@ -39,7 +39,7 @@ aplikacji do przetwarzania tekstu.
 
 %package devel
 Summary:	Header files for CHR library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki CHR
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki CHR
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -51,7 +51,7 @@ Pliki nagłówkowe biblioteki CHR.
 
 %package static
 Summary:	Static Starlink CHR library
-Summary(pl.UTF-8):   Statyczna biblioteka Starlink CHR
+Summary(pl.UTF-8):	Statyczna biblioteka Starlink CHR
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
