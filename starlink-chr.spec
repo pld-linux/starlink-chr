@@ -1,5 +1,5 @@
 Summary:	CHR - Character Handling Routines
-Summary(pl):	CHR - funkcje do obs≥ugi znakÛw
+Summary(pl.UTF-8):   CHR - funkcje do obs≈Çugi znak√≥w
 Name:		starlink-chr
 Version:	2.2_5.218
 Release:	1
@@ -27,38 +27,38 @@ The library may be used simply for building text strings for
 interactive applications or as a basis for more complex text
 processing applications.
 
-%description -l pl
-Biblioteka CHR zwiÍksza ograniczone moøliwo∂ci obs≥ugi znakÛw dostÍpne
-w standardzie Fortranu 77. Oferuje szeroki zakres moøliwo∂ci: od
-formatowania fortranowych typÛw danych w ≥aÒcuchy tekstowe i na odwrÛt
-do funkcji wyøszego poziomu, takich jak dopasowywanie masek,
-sortowanie ≥aÒcuchÛw, reformatowanie akapitÛw i justowanie. Biblioteka
-moøe byÊ uøywana po prostu do tworzenia ≥aÒcuchÛw tekstu dla
-interaktywnych aplikacji lub jako podstawa dla bardziej z≥oøonych
+%description -l pl.UTF-8
+Biblioteka CHR zwiƒôksza ograniczone mo≈ºliwo≈õci obs≈Çugi znak√≥w dostƒôpne
+w standardzie Fortranu 77. Oferuje szeroki zakres mo≈ºliwo≈õci: od
+formatowania fortranowych typ√≥w danych w ≈Ça≈Ñcuchy tekstowe i na odwr√≥t
+do funkcji wy≈ºszego poziomu, takich jak dopasowywanie masek,
+sortowanie ≈Ça≈Ñcuch√≥w, reformatowanie akapit√≥w i justowanie. Biblioteka
+mo≈ºe byƒá u≈ºywana po prostu do tworzenia ≈Ça≈Ñcuch√≥w tekstu dla
+interaktywnych aplikacji lub jako podstawa dla bardziej z≈Ço≈ºonych
 aplikacji do przetwarzania tekstu.
 
 %package devel
 Summary:	Header files for CHR library
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki CHR
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki CHR
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for CHR library.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki CHR.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki CHR.
 
 %package static
 Summary:	Static Starlink CHR library
-Summary(pl):	Statyczna biblioteka Starlink CHR
+Summary(pl.UTF-8):   Statyczna biblioteka Starlink CHR
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink CHR library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka Starlink CHR.
 
 %prep
